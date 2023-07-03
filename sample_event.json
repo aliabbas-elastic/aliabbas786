@@ -1,0 +1,1813 @@
+{
+    "_index": ".ds-metrics-prometheus-default-2023.07.03-000001",
+    "_id": "PpXyGokBKua6KtVtOsgm",
+    "_version": 1,
+    "_score": 0,
+    "_source": {
+      "agent": {
+        "name": "docker-fleet-agent",
+        "id": "c99e4cfb-2d5a-4108-b2b4-6c890bb4c450",
+        "ephemeral_id": "b904bd16-2a3d-484f-bb05-9251e6f198a7",
+        "type": "metricbeat",
+        "version": "8.8.0"
+      },
+      "@timestamp": "2023-07-03T08:50:28.520Z",
+      "ecs": {
+        "version": "8.0.0"
+      },
+      "service": {
+        "address": "http://localhost:9090/metrics",
+        "type": "prometheus"
+      },
+      "data_stream": {
+        "namespace": "default",
+        "type": "metrics",
+        "dataset": "prometheus"
+      },
+      "host": {
+        "hostname": "docker-fleet-agent",
+        "os": {
+          "kernel": "3.10.0-1160.88.1.el7.x86_64",
+          "codename": "focal",
+          "name": "Ubuntu",
+          "family": "debian",
+          "type": "linux",
+          "version": "20.04.6 LTS (Focal Fossa)",
+          "platform": "ubuntu"
+        },
+        "containerized": true,
+        "ip": [
+          "192.168.253.4"
+        ],
+        "name": "docker-fleet-agent",
+        "id": "e8978f2086c14e13b7a0af9ed0011d19",
+        "mac": [
+          "02-42-C0-A8-FD-04"
+        ],
+        "architecture": "x86_64"
+      },
+      "elastic_agent": {
+        "id": "c99e4cfb-2d5a-4108-b2b4-6c890bb4c450",
+        "version": "8.8.0",
+        "snapshot": false
+      },
+      "metricset": {
+        "period": 10000,
+        "name": "collector"
+      },
+      "prometheus": {
+        "prometheus_tsdb_lowest_timestamp_seconds": {
+          "value": 1688374103
+        },
+        "prometheus_tsdb_reloads_total": {
+          "rate": 0,
+          "counter": 3
+        },
+        "prometheus_tsdb_wal_page_flushes_total": {
+          "rate": 1,
+          "counter": 12
+        },
+        "prometheus_tsdb_snapshot_replay_error_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "promhttp_metric_handler_requests_in_flight": {
+          "value": 1
+        },
+        "process_virtual_memory_bytes": {
+          "value": 818774016
+        },
+        "go_memstats_mspan_sys_bytes": {
+          "value": 375360
+        },
+        "go_memstats_stack_sys_bytes": {
+          "value": 1409024
+        },
+        "prometheus_target_scrapes_exceeded_body_size_limit_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_wal_truncations_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_engine_query_log_enabled": {
+          "value": 0
+        },
+        "prometheus_tsdb_compactions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_exemplar_max_exemplars": {
+          "value": 0
+        },
+        "prometheus_sd_nomad_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_rule_evaluation_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_exemplar_exemplars_in_storage": {
+          "value": 0
+        },
+        "prometheus_tsdb_isolation_high_watermark": {
+          "value": 9
+        },
+        "prometheus_sd_kuma_fetch_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_remote_storage_exemplars_in_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_engine_queries_concurrent_max": {
+          "value": 20
+        },
+        "prometheus_tsdb_data_replay_duration_seconds": {
+          "value": 0.000511081
+        },
+        "prometheus_sd_dns_lookups_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_frees_total": {
+          "rate": 1228,
+          "counter": 112109
+        },
+        "prometheus_tsdb_exemplar_out_of_order_exemplars_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_wal_fsync_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_gc_duration_seconds_count": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_wal_writes_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_buck_hash_sys_bytes": {
+          "value": 1459689
+        },
+        "go_memstats_mallocs_total": {
+          "rate": 7071,
+          "counter": 200105
+        },
+        "prometheus_tsdb_wal_truncate_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_web_federation_errors_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_mmap_chunk_corruptions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_sd_file_scan_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0
+        },
+        "labels": {
+          "instance": "localhost:9090",
+          "job": "prometheus"
+        },
+        "prometheus_sd_file_read_errors_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_series_created_total": {
+          "rate": 0,
+          "counter": 413
+        },
+        "prometheus_tsdb_head_active_appenders": {
+          "value": 0
+        },
+        "prometheus_tsdb_symbol_table_size_bytes": {
+          "value": 0
+        },
+        "prometheus_tsdb_isolation_low_watermark": {
+          "value": 9
+        },
+        "prometheus_tsdb_compaction_chunk_samples": {
+          "histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "values": [
+              2,
+              5,
+              7.5,
+              11.25,
+              16.875,
+              25.3125,
+              37.96875,
+              56.953125,
+              85.4296875,
+              128.14453125,
+              192.216796875,
+              288.3251953125,
+              461.3203125
+            ]
+          }
+        },
+        "prometheus_tsdb_head_truncations_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_compactions_triggered_total": {
+          "rate": 0,
+          "counter": 2
+        },
+        "prometheus_tsdb_lowest_timestamp": {
+          "value": 1688374103243
+        },
+        "process_resident_memory_bytes": {
+          "value": 47304704
+        },
+        "prometheus_tsdb_checkpoint_creations_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_heap_sys_bytes": {
+          "value": 32145408
+        },
+        "prometheus_treecache_zookeeper_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrapes_sample_duplicate_timestamp_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_tombstone_cleanup_seconds": {
+          "histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "values": [
+              0.0025,
+              0.0075,
+              0.0175,
+              0.037500000000000006,
+              0.07500000000000001,
+              0.175,
+              0.375,
+              0.75,
+              1.75,
+              3.75,
+              7.5,
+              15
+            ]
+          }
+        },
+        "prometheus_target_scrapes_exceeded_native_histogram_bucket_limit_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_compaction_chunk_size_bytes": {
+          "histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "values": [
+              16,
+              40,
+              60,
+              90,
+              135,
+              202.5,
+              303.75,
+              455.625,
+              683.4375,
+              1025.15625,
+              1537.734375,
+              2306.6015625,
+              3690.5625
+            ]
+          }
+        },
+        "process_open_fds": {
+          "value": 16
+        },
+        "prometheus_treecache_watcher_goroutines": {
+          "value": 0
+        },
+        "process_max_fds": {
+          "value": 1048576
+        },
+        "go_memstats_mcache_inuse_bytes": {
+          "value": 14400
+        },
+        "go_memstats_heap_objects": {
+          "value": 87996
+        },
+        "go_memstats_other_sys_bytes": {
+          "value": 2296935
+        },
+        "prometheus_sd_linode_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrape_pool_reloads_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_out_of_order_samples_appended_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_threads": {
+          "value": 17
+        },
+        "go_memstats_heap_inuse_bytes": {
+          "value": 23257088
+        },
+        "prometheus_remote_storage_samples_in_total": {
+          "rate": 413,
+          "counter": 3631
+        },
+        "go_memstats_mcache_sys_bytes": {
+          "value": 15600
+        },
+        "prometheus_tsdb_exemplar_last_exemplars_timestamp_seconds": {
+          "value": 0
+        },
+        "prometheus_config_last_reload_successful": {
+          "value": 1
+        },
+        "prometheus_tsdb_head_min_time": {
+          "value": 1688374103243
+        },
+        "prometheus_rule_group_duration_seconds_count": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_alloc_bytes_total": {
+          "rate": 370264,
+          "counter": 32420504
+        },
+        "prometheus_tsdb_head_series": {
+          "value": 413
+        },
+        "prometheus_tsdb_exemplar_series_with_exemplars_in_storage": {
+          "value": 0
+        },
+        "prometheus_target_scrapes_sample_out_of_bounds_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_storage_blocks_bytes": {
+          "value": 0
+        },
+        "prometheus_tsdb_time_retentions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_wal_fsync_duration_seconds_count": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_compaction_chunk_range_seconds": {
+          "histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "values": [
+              50,
+              250,
+              1000,
+              4000,
+              16000,
+              64000,
+              256000,
+              1024000,
+              4096000,
+              16384000,
+              45875200
+            ]
+          }
+        },
+        "prometheus_tsdb_exemplar_exemplars_appended_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_sd_azure_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_chunks": {
+          "value": 413
+        },
+        "prometheus_tsdb_head_max_time": {
+          "value": 1688374223243
+        },
+        "prometheus_tsdb_wal_truncate_duration_seconds_count": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_series_removed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_wal_corruptions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_wal_storage_size_bytes": {
+          "value": 26298
+        },
+        "prometheus_tsdb_vertical_compactions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_wal_segment_current": {
+          "value": 0
+        },
+        "prometheus_sd_http_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrapes_exemplar_out_of_order_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_checkpoint_creations_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrape_pool_reloads_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_min_time_seconds": {
+          "value": 1688374103
+        },
+        "prometheus_notifications_alertmanagers_discovered": {
+          "value": 0
+        },
+        "prometheus_tsdb_blocks_loaded": {
+          "value": 0
+        },
+        "prometheus_tsdb_head_gc_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_last_gc_time_seconds": {
+          "value": 1688374178.5255103
+        },
+        "prometheus_notifications_queue_capacity": {
+          "value": 10000
+        },
+        "prometheus_notifications_dropped_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_remote_storage_highest_timestamp_in_seconds": {
+          "value": 1688374223
+        },
+        "prometheus_config_last_reload_success_timestamp_seconds": {
+          "value": 1688374093.1544983
+        },
+        "go_gc_duration_seconds_count": {
+          "rate": 0,
+          "counter": 6
+        },
+        "prometheus_tsdb_wal_completed_pages_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_compaction_duration_seconds": {
+          "histogram": {
+            "counts": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "values": [
+              0.5,
+              1.5,
+              3,
+              6,
+              12,
+              24,
+              48,
+              96,
+              192,
+              384,
+              768,
+              1536,
+              3072,
+              6144,
+              12288
+            ]
+          }
+        },
+        "prometheus_web_federation_warnings_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "process_start_time_seconds": {
+          "value": 1688374092.42
+        },
+        "up": {
+          "value": 1
+        },
+        "prometheus_notifications_queue_length": {
+          "value": 0
+        },
+        "go_memstats_heap_alloc_bytes": {
+          "value": 18730872
+        },
+        "prometheus_sd_file_watcher_errors_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_sd_file_scan_duration_seconds_count": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_sd_kuma_fetch_duration_seconds_count": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_mspan_inuse_bytes": {
+          "value": 331680
+        },
+        "go_gc_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0.000744671
+        },
+        "go_memstats_lookups_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_checkpoint_deletions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_template_text_expansions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_alloc_bytes": {
+          "value": 18730872
+        },
+        "go_memstats_sys_bytes": {
+          "value": 46527752
+        },
+        "prometheus_target_scrapes_sample_out_of_order_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrape_pools_total": {
+          "rate": 0,
+          "counter": 1
+        },
+        "prometheus_tsdb_head_chunks_removed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_compactions_skipped_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrape_pool_exceeded_label_limits_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_compactions_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_checkpoint_deletions_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_sd_kuma_fetch_skipped_updates_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrape_pools_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_rule_evaluation_duration_seconds_count": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_rule_group_duration_seconds_sum": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_clean_start": {
+          "value": 1
+        },
+        "prometheus_tsdb_wal_truncations_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_engine_query_samples_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_remote_storage_histograms_in_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrapes_exceeded_sample_limit_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrapes_cache_flush_forced_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_retention_limit_bytes": {
+          "value": 0
+        },
+        "process_cpu_seconds_total": {
+          "rate": 0.019999999999999962,
+          "counter": 0.35
+        },
+        "prometheus_sd_consul_rpc_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_heap_idle_bytes": {
+          "value": 8888320
+        },
+        "prometheus_sd_dns_lookup_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_remote_storage_string_interner_zero_reference_releases_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_gc_sys_bytes": {
+          "value": 8825736
+        },
+        "prometheus_engine_queries": {
+          "value": 0
+        },
+        "prometheus_tsdb_size_retentions_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_stack_inuse_bytes": {
+          "value": 1409024
+        },
+        "prometheus_engine_query_log_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_target_scrape_pool_exceeded_target_limit_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_ready": {
+          "value": 1
+        },
+        "prometheus_tsdb_head_max_time_seconds": {
+          "value": 1688374223
+        },
+        "prometheus_tsdb_head_chunks_storage_size_bytes": {
+          "value": 0
+        },
+        "go_goroutines": {
+          "value": 33
+        },
+        "prometheus_tsdb_compaction_populating_block": {
+          "value": 0
+        },
+        "prometheus_api_remote_read_queries": {
+          "value": 0
+        },
+        "prometheus_tsdb_reloads_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_truncations_failed_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "go_memstats_heap_released_bytes": {
+          "value": 5529600
+        },
+        "process_virtual_memory_max_bytes": {
+          "value": 18446744073709552000
+        },
+        "prometheus_template_text_expansion_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_sd_kuma_fetch_failures_total": {
+          "rate": 0,
+          "counter": 0
+        },
+        "prometheus_tsdb_head_chunks_created_total": {
+          "rate": 0,
+          "counter": 413
+        },
+        "go_memstats_next_gc_bytes": {
+          "value": 30557608
+        },
+        "prometheus_tsdb_head_series_not_found_total": {
+          "rate": 0,
+          "counter": 0
+        }
+      },
+      "event": {
+        "duration": 14345246,
+        "agent_id_status": "verified",
+        "ingested": "2023-07-03T08:50:29Z",
+        "module": "prometheus",
+        "dataset": "prometheus"
+      }
+    },
+    "fields": {
+      "prometheus.prometheus_tsdb_wal_corruptions_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_linode_failures_total.counter": [
+        0
+      ],
+      "prometheus.go_memstats_heap_released_bytes.value": [
+        5529600
+      ],
+      "prometheus.process_open_fds.value": [
+        16
+      ],
+      "elastic_agent.version": [
+        "8.8.0"
+      ],
+      "host.hostname": [
+        "docker-fleet-agent"
+      ],
+      "prometheus.prometheus_treecache_zookeeper_failures_total.counter": [
+        0
+      ],
+      "host.mac": [
+        "02-42-C0-A8-FD-04"
+      ],
+      "prometheus.prometheus_target_scrape_pools_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_engine_query_samples_total.counter": [
+        0
+      ],
+      "service.type": [
+        "prometheus"
+      ],
+      "prometheus.prometheus_rule_evaluation_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.prometheus_remote_storage_string_interner_zero_reference_releases_total.counter": [
+        0
+      ],
+      "host.os.version": [
+        "20.04.6 LTS (Focal Fossa)"
+      ],
+      "prometheus.prometheus_tsdb_wal_truncations_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_engine_query_samples_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_rule_evaluation_duration_seconds_count.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_chunks_removed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_completed_pages_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_series_removed_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_exemplar_out_of_order_exemplars_total.counter": [
+        0
+      ],
+      "host.os.type": [
+        "linux"
+      ],
+      "prometheus.prometheus_tsdb_mmap_chunk_corruptions_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_target_scrape_pool_exceeded_label_limits_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_compactions_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_writes_failed_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_time_retentions_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_symbol_table_size_bytes.value": [
+        0
+      ],
+      "prometheus.prometheus_rule_evaluation_duration_seconds_sum.counter": [
+        0
+      ],
+      "host.containerized": [
+        true
+      ],
+      "prometheus.prometheus_tsdb_vertical_compactions_total.counter": [
+        0
+      ],
+      "service.address": [
+        "http://localhost:9090/metrics"
+      ],
+      "prometheus.go_memstats_buck_hash_sys_bytes.value": [
+        1459689
+      ],
+      "prometheus.prometheus_tsdb_head_out_of_order_samples_appended_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_lowest_timestamp_seconds.value": [
+        1688374103
+      ],
+      "prometheus.go_memstats_stack_sys_bytes.value": [
+        1409024
+      ],
+      "prometheus.prometheus_target_scrapes_sample_out_of_bounds_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_active_appenders.value": [
+        0
+      ],
+      "prometheus.go_memstats_alloc_bytes_total.rate": [
+        370264
+      ],
+      "prometheus.prometheus_rule_group_duration_seconds_sum.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_compactions_skipped_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_nomad_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_http_failures_total.counter": [
+        0
+      ],
+      "prometheus.process_cpu_seconds_total.counter": [
+        0.35
+      ],
+      "prometheus.prometheus_rule_group_duration_seconds_sum.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_file_read_errors_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_truncate_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_gc_duration_seconds_count.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_dns_lookups_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_duration_seconds_sum.rate": [
+        0
+      ],
+      "prometheus.prometheus_notifications_queue_capacity.value": [
+        10000
+      ],
+      "host.ip": [
+        "192.168.253.4"
+      ],
+      "prometheus.prometheus_sd_dns_lookup_failures_total.rate": [
+        0
+      ],
+      "agent.type": [
+        "metricbeat"
+      ],
+      "prometheus.go_gc_duration_seconds_sum.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrape_pools_failed_total.rate": [
+        0
+      ],
+      "prometheus.go_memstats_heap_alloc_bytes.value": [
+        18730872
+      ],
+      "prometheus.prometheus_target_scrapes_exemplar_out_of_order_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_notifications_dropped_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_remote_storage_samples_in_total.rate": [
+        413
+      ],
+      "prometheus.prometheus_tsdb_compaction_chunk_samples.histogram": [
+        {
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "values": [
+            2,
+            5,
+            7.5,
+            11.25,
+            16.875,
+            25.3125,
+            37.96875,
+            56.953125,
+            85.4296875,
+            128.14453125,
+            192.216796875,
+            288.3251953125,
+            461.3203125
+          ]
+        }
+      ],
+      "host.id": [
+        "e8978f2086c14e13b7a0af9ed0011d19"
+      ],
+      "prometheus.prometheus_target_scrape_pools_total.counter": [
+        1
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_duration_seconds_count.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_truncations_total.rate": [
+        0
+      ],
+      "prometheus.go_gc_duration_seconds_sum.counter": [
+        0.000744671
+      ],
+      "prometheus.prometheus_target_scrapes_sample_duplicate_timestamp_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_rule_group_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.prometheus_web_federation_warnings_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_linode_failures_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_exceeded_native_histogram_bucket_limit_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_truncate_duration_seconds_sum.counter": [
+        0
+      ],
+      "elastic_agent.id": [
+        "c99e4cfb-2d5a-4108-b2b4-6c890bb4c450"
+      ],
+      "prometheus.prometheus_tsdb_reloads_failures_total.rate": [
+        0
+      ],
+      "metricset.period": [
+        10000
+      ],
+      "prometheus.prometheus_tsdb_compaction_chunk_size_bytes.histogram": [
+        {
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "values": [
+            16,
+            40,
+            60,
+            90,
+            135,
+            202.5,
+            303.75,
+            455.625,
+            683.4375,
+            1025.15625,
+            1537.734375,
+            2306.6015625,
+            3690.5625
+          ]
+        }
+      ],
+      "prometheus.prometheus_tsdb_head_series_created_total.counter": [
+        413
+      ],
+      "prometheus.prometheus_target_scrapes_exceeded_sample_limit_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_remote_storage_string_interner_zero_reference_releases_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_config_last_reload_successful.value": [
+        1
+      ],
+      "prometheus.go_memstats_mspan_sys_bytes.value": [
+        375360
+      ],
+      "prometheus.prometheus_treecache_zookeeper_failures_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_template_text_expansion_failures_total.rate": [
+        0
+      ],
+      "host.os.platform": [
+        "ubuntu"
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_sample_out_of_bounds_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_reloads_total.counter": [
+        3
+      ],
+      "prometheus.prometheus_tsdb_wal_truncate_duration_seconds_count.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_min_time.value": [
+        1688374103243
+      ],
+      "prometheus.prometheus_tsdb_wal_fsync_duration_seconds_count.counter": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_sample_duplicate_timestamp_total.rate": [
+        0
+      ],
+      "prometheus.go_memstats_other_sys_bytes.value": [
+        2296935
+      ],
+      "prometheus.prometheus_tsdb_compactions_triggered_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_series.value": [
+        413
+      ],
+      "prometheus.prometheus_tsdb_wal_truncations_failed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_fsync_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.go_memstats_mallocs_total.counter": [
+        200105
+      ],
+      "prometheus.prometheus_tsdb_wal_page_flushes_total.rate": [
+        1
+      ],
+      "prometheus.prometheus_target_scrapes_exemplar_out_of_order_total.rate": [
+        0
+      ],
+      "host.os.name": [
+        "Ubuntu"
+      ],
+      "prometheus.up.value": [
+        1
+      ],
+      "prometheus.prometheus_tsdb_isolation_high_watermark.value": [
+        9
+      ],
+      "prometheus.prometheus_target_scrapes_exceeded_native_histogram_bucket_limit_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_skipped_updates_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_rule_group_duration_seconds_count.counter": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_cache_flush_forced_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_failures_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_exceeded_body_size_limit_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_series_removed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_exemplar_out_of_order_exemplars_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_creations_total.counter": [
+        0
+      ],
+      "agent.version": [
+        "8.8.0"
+      ],
+      "host.os.family": [
+        "debian"
+      ],
+      "prometheus.prometheus_tsdb_compactions_failed_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_creations_failed_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_tombstone_cleanup_seconds.histogram": [
+        {
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "values": [
+            0.0025,
+            0.0075,
+            0.0175,
+            0.037500000000000006,
+            0.07500000000000001,
+            0.175,
+            0.375,
+            0.75,
+            1.75,
+            3.75,
+            7.5,
+            15
+          ]
+        }
+      ],
+      "prometheus.prometheus_sd_file_scan_duration_seconds_sum.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrape_pool_reloads_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_gc_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.go_memstats_alloc_bytes_total.counter": [
+        32420504
+      ],
+      "prometheus.process_virtual_memory_bytes.value": [
+        818774016
+      ],
+      "prometheus.prometheus_tsdb_head_truncations_failed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_cache_flush_forced_total.counter": [
+        0
+      ],
+      "prometheus.go_memstats_heap_inuse_bytes.value": [
+        23257088
+      ],
+      "prometheus.prometheus_tsdb_mmap_chunk_corruptions_total.rate": [
+        0
+      ],
+      "prometheus.process_cpu_seconds_total.rate": [
+        0.019999999999999962
+      ],
+      "prometheus.prometheus_tsdb_size_retentions_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_time_retentions_total.rate": [
+        0
+      ],
+      "prometheus.go_memstats_lookups_total.rate": [
+        0
+      ],
+      "event.module": [
+        "prometheus"
+      ],
+      "prometheus.prometheus_treecache_watcher_goroutines.value": [
+        0
+      ],
+      "host.os.kernel": [
+        "3.10.0-1160.88.1.el7.x86_64"
+      ],
+      "prometheus.go_memstats_lookups_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_file_scan_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_reloads_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_azure_failures_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_exemplar_max_exemplars.value": [
+        0
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_skipped_updates_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_clean_start.value": [
+        1
+      ],
+      "prometheus.prometheus_tsdb_vertical_compactions_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_exemplar_last_exemplars_timestamp_seconds.value": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_truncations_failed_total.rate": [
+        0
+      ],
+      "prometheus.go_gc_duration_seconds_count.rate": [
+        0
+      ],
+      "prometheus.prometheus_template_text_expansions_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_file_scan_duration_seconds_count.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_max_time.value": [
+        1688374223243
+      ],
+      "prometheus.prometheus_remote_storage_histograms_in_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_file_watcher_errors_total.counter": [
+        0
+      ],
+      "prometheus.go_memstats_stack_inuse_bytes.value": [
+        1409024
+      ],
+      "prometheus.go_memstats_mspan_inuse_bytes.value": [
+        331680
+      ],
+      "prometheus.prometheus_target_scrape_pools_failed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_target_scrape_pool_reloads_total.counter": [
+        0
+      ],
+      "prometheus.process_virtual_memory_max_bytes.value": [
+        18446744073709552000
+      ],
+      "prometheus.prometheus_web_federation_errors_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_compactions_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_series_not_found_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_compaction_duration_seconds.histogram": [
+        {
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "values": [
+            0.5,
+            1.5,
+            3,
+            6,
+            12,
+            24,
+            48,
+            96,
+            192,
+            384,
+            768,
+            1536,
+            3072,
+            6144,
+            12288
+          ]
+        }
+      ],
+      "prometheus.go_memstats_frees_total.counter": [
+        112109
+      ],
+      "prometheus.prometheus_tsdb_head_chunks_storage_size_bytes.value": [
+        0
+      ],
+      "prometheus.prometheus_sd_http_failures_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_truncations_total.rate": [
+        0
+      ],
+      "agent.name": [
+        "docker-fleet-agent"
+      ],
+      "prometheus.prometheus_tsdb_lowest_timestamp.value": [
+        1688374103243
+      ],
+      "prometheus.prometheus_target_scrape_pool_reloads_failed_total.counter": [
+        0
+      ],
+      "event.agent_id_status": [
+        "verified"
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_chunks_created_total.counter": [
+        413
+      ],
+      "prometheus.prometheus_sd_file_scan_duration_seconds_sum.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_deletions_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_completed_pages_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_engine_queries.value": [
+        0
+      ],
+      "prometheus.prometheus_remote_storage_highest_timestamp_in_seconds.value": [
+        1688374223
+      ],
+      "host.architecture": [
+        "x86_64"
+      ],
+      "prometheus.prometheus_tsdb_data_replay_duration_seconds.value": [
+        0.000511081
+      ],
+      "agent.id": [
+        "c99e4cfb-2d5a-4108-b2b4-6c890bb4c450"
+      ],
+      "prometheus.prometheus_engine_query_log_failures_total.rate": [
+        0
+      ],
+      "prometheus.go_memstats_mcache_sys_bytes.value": [
+        15600
+      ],
+      "prometheus.prometheus_tsdb_wal_writes_failed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_remote_storage_exemplars_in_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_engine_query_log_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_dns_lookups_total.rate": [
+        0
+      ],
+      "prometheus.go_memstats_alloc_bytes.value": [
+        18730872
+      ],
+      "prometheus.go_goroutines.value": [
+        33
+      ],
+      "prometheus.go_gc_duration_seconds_count.counter": [
+        6
+      ],
+      "prometheus.prometheus_tsdb_exemplar_exemplars_appended_total.counter": [
+        0
+      ],
+      "prometheus.process_resident_memory_bytes.value": [
+        47304704
+      ],
+      "prometheus.prometheus_target_scrapes_sample_out_of_order_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_storage_blocks_bytes.value": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_storage_size_bytes.value": [
+        26298
+      ],
+      "prometheus.prometheus_tsdb_head_series_not_found_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_dns_lookup_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_exemplar_series_with_exemplars_in_storage.value": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_min_time_seconds.value": [
+        1688374103
+      ],
+      "prometheus.prometheus_remote_storage_histograms_in_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_creations_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrape_pool_exceeded_target_limit_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_sd_consul_rpc_failures_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_exemplar_exemplars_appended_total.rate": [
+        0
+      ],
+      "elastic_agent.snapshot": [
+        false
+      ],
+      "prometheus.prometheus_tsdb_wal_truncations_failed_total.rate": [
+        0
+      ],
+      "prometheus.go_memstats_heap_sys_bytes.value": [
+        32145408
+      ],
+      "prometheus.prometheus_tsdb_head_gc_duration_seconds_sum.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_reloads_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_web_federation_warnings_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_ready.value": [
+        1
+      ],
+      "prometheus.prometheus_tsdb_head_max_time_seconds.value": [
+        1688374223
+      ],
+      "prometheus.prometheus_target_scrape_pool_reloads_failed_total.rate": [
+        0
+      ],
+      "host.os.codename": [
+        "focal"
+      ],
+      "prometheus.prometheus_tsdb_retention_limit_bytes.value": [
+        0
+      ],
+      "prometheus.prometheus_target_scrape_pool_exceeded_label_limits_total.rate": [
+        0
+      ],
+      "event.duration": [
+        14345246
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_deletions_failed_total.rate": [
+        0
+      ],
+      "event.ingested": [
+        "2023-07-03T08:50:29.000Z"
+      ],
+      "prometheus.prometheus_tsdb_snapshot_replay_error_total.counter": [
+        0
+      ],
+      "@timestamp": [
+        "2023-07-03T08:50:28.520Z"
+      ],
+      "data_stream.dataset": [
+        "prometheus"
+      ],
+      "prometheus.prometheus_template_text_expansions_total.counter": [
+        0
+      ],
+      "agent.ephemeral_id": [
+        "b904bd16-2a3d-484f-bb05-9251e6f198a7"
+      ],
+      "prometheus.go_memstats_sys_bytes.value": [
+        46527752
+      ],
+      "prometheus.prometheus_template_text_expansion_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_size_retentions_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_exceeded_sample_limit_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_kuma_fetch_duration_seconds_sum.counter": [
+        0
+      ],
+      "prometheus.process_max_fds.value": [
+        1048576
+      ],
+      "prometheus.promhttp_metric_handler_requests_in_flight.value": [
+        1
+      ],
+      "prometheus.prometheus_tsdb_head_out_of_order_samples_appended_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_web_federation_errors_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_creations_failed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_snapshot_replay_error_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_compactions_triggered_total.counter": [
+        2
+      ],
+      "prometheus.prometheus_tsdb_compaction_populating_block.value": [
+        0
+      ],
+      "prometheus.prometheus_sd_consul_rpc_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_deletions_failed_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_chunks_removed_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_notifications_dropped_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_head_series_created_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_exceeded_body_size_limit_total.rate": [
+        0
+      ],
+      "prometheus.go_memstats_next_gc_bytes.value": [
+        30557608
+      ],
+      "host.name": [
+        "docker-fleet-agent"
+      ],
+      "prometheus.prometheus_sd_file_watcher_errors_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_config_last_reload_success_timestamp_seconds.value": [
+        1688374093.1544983
+      ],
+      "prometheus.prometheus_remote_storage_exemplars_in_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_target_scrapes_sample_out_of_order_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_fsync_duration_seconds_sum.counter": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_blocks_loaded.value": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_compactions_failed_total.counter": [
+        0
+      ],
+      "data_stream.type": [
+        "metrics"
+      ],
+      "prometheus.prometheus_tsdb_head_truncations_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_rule_evaluation_duration_seconds_sum.rate": [
+        0
+      ],
+      "ecs.version": [
+        "8.0.0"
+      ],
+      "prometheus.prometheus_tsdb_wal_truncate_duration_seconds_sum.rate": [
+        0
+      ],
+      "prometheus.go_memstats_heap_objects.value": [
+        87996
+      ],
+      "prometheus.prometheus_api_remote_read_queries.value": [
+        0
+      ],
+      "prometheus.go_memstats_heap_idle_bytes.value": [
+        8888320
+      ],
+      "prometheus.prometheus_tsdb_head_chunks.value": [
+        413
+      ],
+      "prometheus.prometheus_target_scrape_pool_exceeded_target_limit_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_nomad_failures_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_segment_current.value": [
+        0
+      ],
+      "prometheus.go_threads.value": [
+        17
+      ],
+      "prometheus.prometheus_tsdb_head_chunks_created_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_sd_azure_failures_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_notifications_alertmanagers_discovered.value": [
+        0
+      ],
+      "prometheus.go_memstats_frees_total.rate": [
+        1228
+      ],
+      "prometheus.prometheus_sd_file_read_errors_total.counter": [
+        0
+      ],
+      "prometheus.go_memstats_mcache_inuse_bytes.value": [
+        14400
+      ],
+      "prometheus.prometheus_tsdb_exemplar_exemplars_in_storage.value": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_isolation_low_watermark.value": [
+        9
+      ],
+      "prometheus.go_memstats_mallocs_total.rate": [
+        7071
+      ],
+      "prometheus.prometheus_notifications_queue_length.value": [
+        0
+      ],
+      "input.name": [
+        "prometheus_metrics"
+      ],
+      "prometheus.go_memstats_last_gc_time_seconds.value": [
+        1688374178.5255103
+      ],
+      "prometheus.prometheus_engine_query_log_enabled.value": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_corruptions_total.counter": [
+        0
+      ],
+      "prometheus.prometheus_remote_storage_samples_in_total.counter": [
+        3631
+      ],
+      "prometheus.prometheus_tsdb_checkpoint_deletions_total.counter": [
+        0
+      ],
+      "data_stream.namespace": [
+        "default"
+      ],
+      "prometheus.prometheus_tsdb_head_gc_duration_seconds_sum.rate": [
+        0
+      ],
+      "metricset.name": [
+        "collector"
+      ],
+      "prometheus.labels.instance": [
+        "localhost:9090"
+      ],
+      "prometheus.prometheus_tsdb_compaction_chunk_range_seconds.histogram": [
+        {
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "values": [
+            50,
+            250,
+            1000,
+            4000,
+            16000,
+            64000,
+            256000,
+            1024000,
+            4096000,
+            16384000,
+            45875200
+          ]
+        }
+      ],
+      "prometheus.go_memstats_gc_sys_bytes.value": [
+        8825736
+      ],
+      "prometheus.prometheus_tsdb_compactions_skipped_total.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_fsync_duration_seconds_sum.rate": [
+        0
+      ],
+      "prometheus.prometheus_tsdb_wal_page_flushes_total.counter": [
+        12
+      ],
+      "prometheus.labels.job": [
+        "prometheus"
+      ],
+      "prometheus.process_start_time_seconds.value": [
+        1688374092.42
+      ],
+      "prometheus.prometheus_engine_queries_concurrent_max.value": [
+        20
+      ],
+      "event.dataset": [
+        "prometheus"
+      ]
+    }
+  }
